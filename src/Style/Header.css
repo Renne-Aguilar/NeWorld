@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 50px;
+    border-bottom: 1px solid lightgray;
+    color: lavender;
+    padding: 20px;
+    align-items: center;
+    position: sticky;
+}
+
+.header_icons {
+    color: lavender;
+    display: flex;
+}
+.header_icons > p {
+    padding-right: 10px;
+    cursor: pointer;
+    text-decoration: none !important;
+} 

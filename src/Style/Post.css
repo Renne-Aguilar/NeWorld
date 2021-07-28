@@ -1,0 +1,30 @@
+.post {
+    margin-bottom: 100px;
+    max-width: 500px;
+    margin-top: 50px;
+}
+
+.post_header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.post_avatar {
+    margin-right: 10px;
+}
+.post_header > h3 {
+    margin-right: 5px;
+}
+
+.post_image {
+    max-width: 330px;
+    object-fit: contain;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.post_footer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}

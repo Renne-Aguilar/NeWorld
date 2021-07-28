@@ -1,0 +1,19 @@
+html {
+    scroll-snap-type: y mandatory;
+}
+
+.home {
+   display: grid;
+   place-items: center;
+   padding: 20px;
+}
+.home_posts {
+    height: auto;
+    max-width: 500px;
+    width: 100%;
+    scroll-snap-type: y mandatory;
+}
+.home_posts::-webkit-scrollbar {
+    display: none;
+}
+
